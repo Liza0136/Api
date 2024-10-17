@@ -7,7 +7,6 @@ import android.widget.EditText
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import com.android.volley.BuildConfig
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -16,6 +15,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
 import retrofit2.http.Header
 import retrofit2.http.Path
+import java.util.Properties
 
 class MainActivity : AppCompatActivity() {
     lateinit var githubService: GithubService
