@@ -13,4 +13,4 @@
 .externalNativeBuild
 .cxx
 local.properties
-R.string.api_key
+strings.xml
