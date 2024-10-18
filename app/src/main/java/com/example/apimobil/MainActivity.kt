@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun getRepositories(username: String) {
-        val token = getString(R.string.ai_key)
+        val token = getString(R.string.api_key)
         githubService.getRepositories(username, token)
             .enqueue(object : Callback<List<Repository>> {
                 override fun onResponse(
